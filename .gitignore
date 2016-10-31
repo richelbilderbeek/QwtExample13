@@ -27,3 +27,8 @@
 *.exe
 *.out
 *.app
+*.pro.user
+Makefile
+moc_*
+CppQwtExample1
+QwtExample1

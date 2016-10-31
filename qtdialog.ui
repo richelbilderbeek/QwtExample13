@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtDialog</class>
+ <widget class="QDialog" name="QtDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>434</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QwtExample13</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QTableWidget" name="parameters">
+        <row>
+         <property name="text">
+          <string>Carrying capacity</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Intrinsic growth rate</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Initial population size</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Number of generations</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>Value</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string>1000</string>
+         </property>
+        </item>
+        <item row="1" column="0">
+         <property name="text">
+          <string>1.1</string>
+         </property>
+        </item>
+        <item row="2" column="0">
+         <property name="text">
+          <string>10</string>
+         </property>
+        </item>
+        <item row="3" column="0">
+         <property name="text">
+          <string>100</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="start">
+        <property name="text">
+         <string>&amp;Start</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
